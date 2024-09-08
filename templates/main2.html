@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз лесных пожаров</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="/static/img/min1.png">
+        <h1>Прогноз лесных пожаров</h1>
+    </header>
+
+    <form method="POST" action="/submitnetwork" enctype="multipart/form-data">
+                <label for="dataset">Датасет</label>
+                <input type="file" id="dataset" name="dataset">
+
+                <label for="tiff">Файл tiff</label>
+                <input type="file" id="tiff" name="tiff">
+                <input type="submit" value="Submit"/>
+    </form>
+
+    <footer>
+        <p>&copy; 2024 Министерство природных ресурсов и экологии </p>
+    </footer>
+
+</body>
+</html>
