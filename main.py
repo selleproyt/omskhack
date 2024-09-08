@@ -37,5 +37,5 @@ def submitreg():
 def submitnetwork():
     return f"Result:"
 
-
+#print()
 app.run()
